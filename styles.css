@@ -1,0 +1,158 @@
+body {
+          max-width: 1400px;
+          margin: auto;
+            font-family: 'Greycliff CF', Arial, sans-serif;
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: auto;
+  margin-top:60px;
+}
+
+h1 {
+  font-size: 40px;
+font-weight: 900;
+padding: 0;
+margin: 0;
+letter-spacing: 1.5px;
+font-family: 'Greycliff CF';
+
+}
+
+h2 {
+  margin: 0px;
+  font-weight: 200;
+  font-size: 40px;
+font-family: 'Greycliff CF';
+}
+
+.skills li {
+  background-color: #F6F6F6;
+      border: solid 1px #B3B3B3;
+      border-radius: 20px;
+      padding: 10px;
+      line-height: 55px;
+      display: inline;
+      white-space: nowrap;
+      font-size: 14px;
+}
+
+.skills ul {
+  padding-left: 0px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+.experience p {
+  width: 80%;
+  margin: 40px 0px;
+
+
+}
+
+h3 {
+font-weight: 600;
+font-size: 17px;
+}
+
+.position span {
+  display: inline-block;
+}
+
+.position {
+
+
+border-bottom: 1px solid black;
+}
+
+.position-date {
+  float: right;
+    padding-top: 20px;
+}
+
+.position-summary p {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.job {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 30px 0px;
+  background-color: #fbfbfb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.job ul {
+  padding-left: 0px;
+  /* margin-bottom: 30px; */
+
+}
+
+.job li {
+    /* list-style-type: none;
+    display: flex;
+    margin-right: 5px; */
+    margin-left: 20px;
+
+}
+
+ /* .job li:before {
+   font-family: 'fontello';
+   display: inline-block;
+   font-size: 1em;
+   line-height: 0;
+   margin-left: - 1.5em;
+   width: 2.5em;
+   color: $primary-color;
+   content: "-";
+   padding-right: 20px;
+   padding-top: 5px;
+} */
+
+.sub-bullets {
+display: contents;
+}
+
+/* .sub-bullets::before {
+  content: '-';
+      display: inherit;
+} */
+
+.position-headline {
+  font-weight: 600;
+}
+
+.less-margin {
+  margin-top: 0px;
+}
+
+.add-padding {
+  padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .cv-grid {
+        grid-template-columns: 1fr;
+  }
+
+  .job {
+    margin: auto;
+  }
+
+  .add-padding {
+    width: 80%;
+    margin: auto!important;
+  }
+
+}
