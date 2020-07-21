@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Greycliff CF";
+  font-family: "titlefont";
   src: url("/fonts/GreycliffCF-Bold.woff");
 }
 
@@ -7,7 +7,7 @@
 body {
           max-width: 1400px;
           margin: auto;
-            font-family: 'Greycliff CF', Arial, sans-serif;
+            font-family: 'titlefont', Arial, sans-serif;
 }
 
 .cv-grid {
@@ -23,7 +23,7 @@ font-weight: 900;
 padding: 0;
 margin: 0;
 letter-spacing: 1.5px;
-font-family: 'Greycliff CF';
+font-family: 'titlefont';
 
 }
 
@@ -31,7 +31,7 @@ h2 {
   margin: 0px;
   font-weight: 200;
   font-size: 40px;
-font-family: 'Greycliff CF';
+font-family: 'titlefont';
 }
 
 .skills li {
