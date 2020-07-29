@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "titlefont";
-  src: url("/GreycliffCF-Bold.woff");
-}
+
 
 
 body {
           max-width: 1400px;
           margin: auto;
-            font-family: 'titlefont', Arial, sans-serif;
+          font-family: 'Open Sans', sans-serif;
+
 }
 
 .cv-grid {
@@ -23,7 +21,8 @@ font-weight: 900;
 padding: 0;
 margin: 0;
 letter-spacing: 1.5px;
-font-family: 'titlefont';
+font-family: 'Open Sans', sans-serif;
+
 
 }
 
@@ -31,7 +30,8 @@ h2 {
   margin: 0px;
   font-weight: 200;
   font-size: 40px;
-font-family: 'titlefont';
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .skills li {
@@ -112,7 +112,8 @@ border-bottom: 1px solid black;
 }
 
  /* .job li:before {
-   font-family: 'fontello';
+ font-family: 'Open Sans', sans-serif;
+
    display: inline-block;
    font-size: 1em;
    line-height: 0;
